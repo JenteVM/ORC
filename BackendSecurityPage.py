@@ -1,6 +1,8 @@
 from hashlib import sha256
 import os
 
+Secure_data_extraction = open(r"Secure_data_storage.txt", "a")
+Secure_data_extraction.close()
 Secure_data_extraction = open(r"Secure_data_storage.txt", "r")
 Extracted_Data = Secure_data_extraction.readline()
 Secure_data_extraction.close()
