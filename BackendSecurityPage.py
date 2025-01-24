@@ -103,6 +103,8 @@ if Option == "Log in":
         print("Welcome back, " + Username)
     elif Username == Listed_Users[i] and Password != Listed_Passwords[i]:
       print("Incorrect username or password")
+    elif Username != Listed_Users[i]:
+      print("Incorrect username or password")
  
 elif Option == "Sign in":
   Username = input("Create a username ")
